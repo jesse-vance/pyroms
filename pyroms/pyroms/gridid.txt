@@ -1,5 +1,38 @@
 # gridid definition file
 #
+id      = PAH
+name    = PAH
+grdfile = /Users/jessevance/GitHub/PAH/grid/PAH_30m_grid.nc
+N       = 30
+grdtype = roms
+Vtrans  = 2
+theta_s = 8
+theta_b = 4
+Tcline  = 20
+#
+#
+id      = LO6
+name    = LO6
+grdfile = /Users/jessevance/GitHub/LO_data/grids/cas6/grid_revised.nc
+N       = 30
+grdtype = roms
+Vtrans  = 2
+theta_s = 4
+theta_b = 2
+Tcline  = 10
+#
+#
+id      = LO7
+name    = LO7
+grdfile = /Users/jessevance/GitHub/LO_data/grids/cas7/grid.nc
+N       = 30
+grdtype = roms
+Vtrans  = 2
+theta_s = 4
+theta_b = 2
+Tcline  = 10
+#
+#
 id      = CORAL
 name    = Coral Triangle
 grdfile = /storage/ROMS/Coral/Grid/coral_grd.nc
